@@ -37,9 +37,8 @@ sum(patient_1)
 #----------------------------------------------------------------------------------------
 
 # Question 4
-# max inflammation for patient 1
 max(data01[1, ])
-# min inflammation for patient 2 on day 7
+# max inflammation for patient 1
 min(data01[2, 7])
 # The minimum value for patient 2 on day 7 is 3
 
