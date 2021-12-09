@@ -58,7 +58,7 @@ avg_day_inflammation <- apply(data01, 2, mean)
 plot(avg_day_inflammation)
 max_day_inflammation <- apply(data01, 2, max)
 plot(max_day_inflammation)
-# The plot looks like a triangle
+# The plot looks like a triangle.
 # The daily max inflammation follows the same trend as the average daily inflammation.
 
 #----------------------------------------------------------------------------------------
@@ -67,6 +67,6 @@ plot(max_day_inflammation)
 min_day_inflammation <- apply(data01, 2, min)
 plot(min_day_inflammation)
 # There appears to be overlapping min values, creating 'steps'.
-# Overall, the plot stills follows the 'triangular' trend found in the other two.
+# Overall, the plot still follows the 'triangular' trend found in the other two.
 
 #----------------------------------------------------------------------------------------
